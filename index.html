@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilo.css" class="re">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        .caja{
+        border:4px solid #535609;
+        width: 780px;
+        height: 390px;
+        margin:10px auto;
+        }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <p class="txt-1">Gracias por visitarnos</p>
+
+        <h2>Bienvenido al Login de Frank</h2>
+        <hr />
+
+        <p class="txt-2">
+           
+        </p>
+    
+    <form action="" class="mostrar" id="formulario">
+        <input type="email" id="txtEmail" placeholder="Ingresa tu email">
+        <br><br>
+        <input type="password" id="txtPassword" placeholder="Ingresa tu password">
+        <br><br>
+        <input class="boton"type="button" value="Registrar" id="btnRegistrar">
+        <br><br>
+        <input class="boton"type="button" value="Ingresar" id="btnIngresar">
+   <br><br>
+    </form>
+</div>
+    <div class="contenidoDeLaWeb ocultar" id="contenidoDeLaWeb">
+        <h3>Aqui veras el contenido de la web</h3>
+        <img src="img/ningguang-genshin-impact.jpg"width="400" height="200">
+        <div class="caja">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MVbeoSPqRs4?start=45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"> </script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"> </script>
+
+    <script src="main.js"></script>
+</body>
+</html>
